@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+#typewriter-effect {
+    font-size: clamp(2rem, 6vw, 4rem);
+    font-weight: bold;
+    font-family: "Space Grotesk", sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff, #e6e6e6, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.4),
+                 0 0 10px rgba(255, 255, 255, 0.3);
+}
